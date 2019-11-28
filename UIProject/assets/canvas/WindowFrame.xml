@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,100" extention="Label" initName="frame">
+  <displayList>
+    <graph id="n0_ild2" name="dragArea" xy="0,0" size="50,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_ild2" name="contentArea" xy="0,0" size="50,100" touchable="false" type="rect" lineSize="0" fillColor="#ffededed">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

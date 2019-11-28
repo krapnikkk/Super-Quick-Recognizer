@@ -1,0 +1,26 @@
+[
+  {
+    "flatMessage": "Cannot find name 'itemType'.",
+    "formatted": "\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m14\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'itemType'.\r\n\r\n\u001b[7m2\u001b[0m import Item，{itemType} from \"../components/Item\";\r\n\u001b[7m \u001b[0m \u001b[91m             ~~~~~~~~\u001b[0m\r\n\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m24\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'from'.\r\n\r\n\u001b[7m2\u001b[0m import Item，{itemType} from \"../components/Item\";\r\n\u001b[7m \u001b[0m \u001b[91m                       ~~~~\u001b[0m\r\n\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m39\u001b[0m:\u001b[93m25\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'itemType'.\r\n\r\n\u001b[7m39\u001b[0m             item.type = itemType.HISTORY;\r\n\u001b[7m  \u001b[0m \u001b[91m                        ~~~~~~~~\u001b[0m\r\n",
+    "category": 1,
+    "code": 2304,
+    "type": "semantic",
+    "fileLine": "E:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts(2,14)"
+  },
+  {
+    "flatMessage": "Cannot find name 'from'.",
+    "formatted": "\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m14\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'itemType'.\r\n\r\n\u001b[7m2\u001b[0m import Item，{itemType} from \"../components/Item\";\r\n\u001b[7m \u001b[0m \u001b[91m             ~~~~~~~~\u001b[0m\r\n\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m24\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'from'.\r\n\r\n\u001b[7m2\u001b[0m import Item，{itemType} from \"../components/Item\";\r\n\u001b[7m \u001b[0m \u001b[91m                       ~~~~\u001b[0m\r\n\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m39\u001b[0m:\u001b[93m25\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'itemType'.\r\n\r\n\u001b[7m39\u001b[0m             item.type = itemType.HISTORY;\r\n\u001b[7m  \u001b[0m \u001b[91m                        ~~~~~~~~\u001b[0m\r\n",
+    "category": 1,
+    "code": 2304,
+    "type": "semantic",
+    "fileLine": "E:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts(2,24)"
+  },
+  {
+    "flatMessage": "Cannot find name 'itemType'.",
+    "formatted": "\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m14\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'itemType'.\r\n\r\n\u001b[7m2\u001b[0m import Item，{itemType} from \"../components/Item\";\r\n\u001b[7m \u001b[0m \u001b[91m             ~~~~~~~~\u001b[0m\r\n\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m2\u001b[0m:\u001b[93m24\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'from'.\r\n\r\n\u001b[7m2\u001b[0m import Item，{itemType} from \"../components/Item\";\r\n\u001b[7m \u001b[0m \u001b[91m                       ~~~~\u001b[0m\r\n\u001b[96mE:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts\u001b[0m:\u001b[93m39\u001b[0m:\u001b[93m25\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'itemType'.\r\n\r\n\u001b[7m39\u001b[0m             item.type = itemType.HISTORY;\r\n\u001b[7m  \u001b[0m \u001b[91m                        ~~~~~~~~\u001b[0m\r\n",
+    "category": 1,
+    "code": 2304,
+    "type": "semantic",
+    "fileLine": "E:/coding/layabox/Super-Quick-Recognizer/src/views/windowHistory.ts(39,25)"
+  }
+]

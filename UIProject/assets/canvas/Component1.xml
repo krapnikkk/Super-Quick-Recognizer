@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,400">
+  <displayList>
+    <graph id="n0_ntyb" name="n0" xy="0,0" size="500,400" type="rect" lineSize="0" fillColor="#ffe6e6e6"/>
+    <graph id="n5_ntyb" name="n5" xy="29,82" size="440,260" type="rect" lineSize="0"/>
+    <component id="n6_ntyb" name="n6" src="ntybz" fileName="ScrollBar1.xml" xy="452,82" size="17,260"/>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wfnu79jt">
+  <resources>
+    <component id="tsvk0" name="Main.xml" path="/" exported="true"/>
+    <image id="tsvk4" name="k31.png" path="/res/"/>
+    <image id="tsvk5" name="k30.png" path="/res/"/>
+    <image id="tsvk6" name="k29.png" path="/res/"/>
+    <image id="tsvk7" name="k28.png" path="/res/"/>
+    <image id="tsvk8" name="k32.png" path="/res/"/>
+    <image id="tsvk9" name="k23.png" path="/res/"/>
+    <image id="tsvka" name="k22.png" path="/res/"/>
+    <image id="tsvkb" name="k21.png" path="/res/"/>
+    <image id="tsvkc" name="k24.png" path="/res/"/>
+    <component id="tsvkd" name="ComboBox_item.xml" path="/"/>
+    <component id="tsvke" name="ComboBox_popup.xml" path="/"/>
+    <component id="tsvkf" name="ComboBox.xml" path="/"/>
+    <image id="tsvkg" name="b7_png.png" path="/res/"/>
+    <image id="tsvkh" name="b6_png.png" path="/res/"/>
+    <image id="tsvki" name="b5_png.png" path="/res/"/>
+    <component id="tsvkj" name="Button.xml" path="/btn/"/>
+    <component id="tsvkk" name="Button2.xml" path="/btn/"/>
+    <component id="tsvkl" name="Button3.xml" path="/btn/"/>
+    <component id="tsvkm" name="Button4.xml" path="/btn/"/>
+    <component id="hipto" name="btn_save.xml" path="/btn/"/>
+    <component id="ntybp" name="Button6.xml" path="/btn/"/>
+    <component id="ntybq" name="Button7.xml" path="/btn/"/>
+    <image id="ntybs" name="icon_1.png" path="/"/>
+    <component id="ntybu" name="Component1.xml" path="/"/>
+    <component id="ntybw" name="ScrollBar1_arrow1.xml" path="/"/>
+    <component id="ntybx" name="ScrollBar1_arrow2.xml" path="/"/>
+    <component id="ntyby" name="ScrollBar1_grip.xml" path="/"/>
+    <component id="ntybz" name="ScrollBar1.xml" path="/" exported="true"/>
+    <component id="a4at10" name="window_1.xml" path="/" exported="true"/>
+    <component id="a4at11" name="item.xml" path="/" exported="true"/>
+    <component id="hf6y12" name="checkbox.xml" path="/"/>
+    <component id="hf6y13" name="btn_close.xml" path="/btn/"/>
+    <component id="hf6y14" name="Button7(1).xml" path="/btn/"/>
+    <image id="hf6y15" name="icon_2.png" path="/"/>
+    <component id="hf6y16" name="window_2.xml" path="/" exported="true"/>
+    <component id="hf6y18" name="btn_import.xml" path="/btn/"/>
+    <component id="hf6y19" name="btn_export.xml" path="/btn/"/>
+    <component id="hf6y1b" name="btn_del.xml" path="/btn/"/>
+    <component id="ild21c" name="WindowFrame.xml" path="/"/>
+    <component id="qwg01d" name="btn_clear.xml" path="/btn/"/>
+    <component id="x17r1e" name="canvas.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="canvas" path="E:\coding\layabox\Super-Quick-Recognizer\bin\res\ui" packageCount="2" genCode="true" maxAtlasSize="1024"/>
+</packageDescription>

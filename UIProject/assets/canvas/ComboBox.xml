@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,32" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n6_ntyb" name="n6" xy="0,0" size="120,32" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n8_ntyb" name="n8" xy="100,10" size="12,12" aspect="true" type="regular_polygon" lineSize="0" fillColor="#ff999999" sides="3" startAngle="-30">
+      <relation target="" sidePair="right-right,top-top"/>
+    </graph>
+    <graph id="n7_ntyb" name="n7" xy="100,10" size="12,12" aspect="true" type="regular_polygon" lineSize="0" fillColor="#ff333333" sides="3" startAngle="-30">
+      <relation target="" sidePair="right-right,top-top"/>
+    </graph>
+    <text id="n4_tsvk" name="title" xy="0,0" size="93,32" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="请选择">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://wfnu79jttsvke"/>
+</component>

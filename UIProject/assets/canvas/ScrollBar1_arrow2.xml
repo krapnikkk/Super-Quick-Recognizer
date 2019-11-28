@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="17,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n0_ntyb" name="n0" xy="0,0" size="17,20" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_ntyb" name="n1" xy="0,0" size="17,20" touchable="false" type="rect" lineSize="0" fillColor="#fffafafa">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2_ntyb" name="n2" xy="0,0" size="17,20" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n3_ntyb" name="n3" xy="5,7" size="7,7" aspect="true" type="regular_polygon" lineSize="0" fillColor="#ff333333" sides="3" startAngle="-30"/>
+  </displayList>
+  <Button/>
+</component>

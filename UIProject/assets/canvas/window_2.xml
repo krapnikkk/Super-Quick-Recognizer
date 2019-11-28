@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,470" bgColor="#ededed">
+  <displayList>
+    <component id="n22_ild2" name="frame" src="ild21c" fileName="WindowFrame.xml" xy="0,0" size="640,470"/>
+    <graph id="n10_hf6y" name="n10" xy="30,115" size="580,280" type="rect" lineSize="0"/>
+    <text id="n1_a4at" name="n1" xy="70,126" size="33,20" fontSize="14" vAlign="middle" text="名称"/>
+    <text id="n2_a4at" name="n2" xy="283,126" size="61,20" fontSize="14" text="记录时间"/>
+    <text id="n23_ild2" name="n23" xy="535,127" size="33,20" fontSize="14" text="操作"/>
+    <list id="n3_a4at" name="n3" xy="30,155" size="580,230" overflow="scroll" defaultItem="ui://wfnu79jta4at11" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n12_hf6y" name="n12" src="hf6y12" fileName="checkbox.xml" xy="43,128"/>
+    <component id="n17_hf6y" name="n17" src="tsvkf" fileName="ComboBox.xml" xy="30,65" size="127,32">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n4_a4at" name="n4" src="hf6y18" fileName="btn/btn_import.xml" xy="550,65" size="60,32"/>
+    <component id="n19_hf6y" name="n19" src="hf6y19" fileName="btn/btn_export.xml" xy="250,65" size="60,32"/>
+    <component id="n20_hf6y" name="n20" src="hf6y1b" fileName="btn/btn_del.xml" xy="174,65" size="60,32"/>
+    <graph id="n29_x17r" name="n29" xy="355,66" size="182,30" type="rect" lineSize="0"/>
+    <text id="n30_x17r" name="n30" xy="360,73" size="171,23" input="true" prompt="请输入导入的数据组数据" maxLength="99999" fontSize="14" autoSize="none" text="">
+      <relation target="n29_x17r" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n18_hf6y" name="btn_close" src="hf6y13" fileName="btn/btn_close.xml" xy="280,417"/>
+    <text id="n24_x17r" name="n24" xy="267,11" size="105,28" font="SimHei" fontSize="24" bold="true" text="数据管理">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

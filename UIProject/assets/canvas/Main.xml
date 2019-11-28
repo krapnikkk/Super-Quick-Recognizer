@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1024,768" bgColorEnabled="true" bgColor="#000000">
+  <displayList>
+    <text id="n1_tsvk" name="title" xy="34,73" size="245,197" font="SimHei" fontSize="46" color="#ffffff" bold="true" text="$Q &#xA;Super&#xA;Quick &#xA;Recognizer">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n29_ntyb" name="canvas" xy="322,72" size="650,286" type="rect" lineSize="0"/>
+    <graph id="n0_tsvk" name="canvas_botton" xy="322,358" size="650,54" touchable="false" type="rect" lineSize="0" fillColor="#ffededed"/>
+    <text id="n4_tsvk" name="text_result" xy="332,82" size="224,66" visible="false" font="SimHei" fontSize="14" leading="10" autoSize="none" text="识别到的字符是：{text=1}&#xA;耗时：{time=1}ms&#xA;评分：{score=1}"/>
+    <text id="n21_hipt" name="title_canvas" xy="325,40" size="110,24" font="SimHei" fontSize="20" color="#ffffff" vAlign="middle" bold="true" text="画布区域："/>
+    <text id="n33_a4at" name="text_group" xy="334,374" size="222,25" font="SimHei" fontSize="14" vAlign="middle" autoSize="none" text="当前识别的字符组：{group=1}"/>
+    <component id="n25_ntyb" name="n25" src="ntybp" fileName="btn/Button6.xml" xy="872,369" size="80,32">
+      <Button title="&#xD;&#xD;识别" titleColor="#ffffff"/>
+    </component>
+    <component id="n26_ntyb" name="n26" src="tsvkj" fileName="btn/Button.xml" xy="782,369"/>
+    <graph id="n7_tsvk" name="n7" xy="322,492" size="650,215" type="rect" lineSize="0"/>
+    <richtext id="n32_hj7g" name="n10" xy="328,497" size="633,164" fontSize="14" ubb="true" autoSize="none" autoClearText="true" text=""/>
+    <graph id="n27_ntyb" name="n27" xy="322,653" size="650,54" type="rect" lineSize="0" fillColor="#ffededed"/>
+    <text id="n15_tsvk" name="text_name" xy="331,674" size="61,18" font="SimHei" fontSize="14" color="#333333" text="字符名称"/>
+    <graph id="n12_tsvk" name="n12" xy="396,664" size="203,32" type="rect" lineSize="0"/>
+    <text id="n20_hipt" name="name" xy="401,671" size="190,25" input="true" prompt="请为该字符添加个名称吧~" maxLength="6" font="SimHei" fontSize="14" autoSize="none" text="">
+      <relation target="n12_tsvk" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n13_tsvk" name="btn_add" src="tsvkm" fileName="btn/Button4.xml" xy="782,664"/>
+    <component id="n9_tsvk" name="btn_copy" src="tsvkl" fileName="btn/Button3.xml" xy="872,664"/>
+    <text id="n8_tsvk" name="n8" xy="322,459" size="152,24" font="SimHei" fontSize="20" color="#ffffff" vAlign="middle" bold="true" text="当前画布数据："/>
+    <component id="n2_tsvk" name="type" src="tsvkf" fileName="ComboBox.xml" xy="40,333">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n6_tsvk" name="n6" xy="40,306" size="117,18" font="SimHei" fontSize="14" color="#ffffff" text="选择识别字符组："/>
+    <component id="n31_ntyb" name="n31" src="ntybq" fileName="btn/Button7.xml" xy="38,395"/>
+    <component id="n34_hf6y" name="n34" src="hf6y14" fileName="btn/Button7(1).xml" xy="38,443"/>
+  </displayList>
+</component>

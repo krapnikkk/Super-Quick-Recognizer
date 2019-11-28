@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,470">
+  <displayList>
+    <graph id="n0_x17r" name="n0" xy="0,0" size="800,470" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_x17r" name="n1" xy="75,62" size="650,286" type="rect"/>
+    <component id="n2_x17r" name="n2" src="hf6y13" fileName="btn/btn_close.xml" xy="360,408"/>
+  </displayList>
+</component>

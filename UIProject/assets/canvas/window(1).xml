@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,800" bgColorEnabled="true">
+  <displayList>
+    <text id="n0_a4at" name="n0" xy="99,93" size="24,31" fontSize="24" text="id"/>
+    <text id="n1_a4at" name="n1" xy="254,93" size="53,31" fontSize="24" text="名称"/>
+    <text id="n2_a4at" name="n2" xy="548,93" size="101,31" fontSize="24" text="记录时间"/>
+    <list id="n3_a4at" name="n3" xy="1,152" size="799,538" overflow="scroll" defaultItem="ui://wfnu79jta4at11">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n7_a4at" name="n7" xy="45,699" size="53,31" fontSize="24" text="全选"/>
+    <text id="n8_a4at" name="n8" xy="123,698" size="53,31" fontSize="24" text="删除"/>
+    <component id="n9_a4at" name="n9" src="tsvkf" fileName="ComboBox.xml" xy="48,29">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n10_a4at" name="n10" xy="212,32" size="53,31" fontSize="24" text="删除"/>
+    <text id="n11_a4at" name="n11" xy="304,32" size="53,31" fontSize="24" text="导出"/>
+    <text id="n12_a4at" name="n12" xy="387,32" size="53,31" fontSize="24" text="导入"/>
+  </displayList>
+</component>

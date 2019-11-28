@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,800" bgColorEnabled="true">
+  <displayList>
+    <text id="n0_a4at" name="n0" xy="102,36" size="24,31" fontSize="24" text="id"/>
+    <text id="n1_a4at" name="n1" xy="257,36" size="53,31" fontSize="24" text="名称"/>
+    <text id="n2_a4at" name="n2" xy="551,36" size="101,31" fontSize="24" text="记录时间"/>
+    <list id="n3_a4at" name="n3" xy="1,102" size="799,538" overflow="scroll" defaultItem="ui://wfnu79jta4at11">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_a4at" name="n4" src="hipto" fileName="btn/btn_save.xml" xy="544,647"/>
+    <graph id="n5_a4at" name="n5" xy="257,646" size="260,44" type="rect"/>
+    <text id="n6_a4at" name="n6" xy="263,652" size="245,33" input="true" prompt="请输入该字符组名称" fontSize="24" autoSize="none" text=""/>
+    <text id="n7_a4at" name="n7" xy="45,652" size="53,31" fontSize="24" text="全选"/>
+    <text id="n8_a4at" name="n8" xy="123,651" size="54,31" fontSize="24" text="删除"/>
+  </displayList>
+</component>

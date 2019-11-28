@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,40">
+  <displayList>
+    <text id="n1_a4at" name="n1" xy="44,12" size="47,20" fontSize="14" text="正方形"/>
+    <text id="n2_a4at" name="n2" xy="220,12" size="139,20" fontSize="14" text="2019-11-18 20:47:21"/>
+    <graph id="n5_hf6y" name="n5" xy="0,39" size="580,1" type="rect" lineSize="0" fillColor="#ffededed"/>
+    <component id="n6_hf6y" name="n6" src="hf6y12" fileName="checkbox.xml" xy="13,13"/>
+    <richtext id="n7_qwg0" name="n7" xy="477,11" size="33,20" fontSize="14" color="#3377ff" text="预览"/>
+    <richtext id="n8_qwg0" name="n8" xy="529,11" size="33,20" fontSize="14" color="#3377ff" text="删除"/>
+  </displayList>
+</component>

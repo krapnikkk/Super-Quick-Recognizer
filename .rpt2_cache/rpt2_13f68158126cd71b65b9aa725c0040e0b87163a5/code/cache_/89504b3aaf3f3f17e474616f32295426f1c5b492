@@ -1,0 +1,6 @@
+{
+  "code": "export default class Canvas extends fgui.Window {\r\n    constructor() {\r\n        super();\r\n    }\r\n    onInit() {\r\n        this.contentPane = fgui.UIPackage.createObject(\"canvas\", \"canvas\").asCom;\r\n        this.center();\r\n        this.setPivot(0.5, 0.5);\r\n        this.contentPane.getChild(\"n2\").onClick(this, this.onHide);\r\n        this._canvas = this.contentPane.getChild(\"n1\").asGraph;\r\n    }\r\n    onShown() {\r\n        this.autoDraw();\r\n    }\r\n    autoDraw() {\r\n        this._canvas.displayObject.graphics.clear(false);\r\n        this._canvas.displayObject.graphics.drawRect(0, 0, this._canvas.width, this._canvas.height, \"#ffffff\");\r\n        const Data = this;\r\n    }\r\n    doShowAnimation() {\r\n        this.setScale(0.1, 0.1);\r\n        fgui.GTween.to2(0.1, 0.1, 1, 1, 0.3)\r\n            .setTarget(this, this.setScale)\r\n            .setEase(fgui.EaseType.QuadOut)\r\n            .onComplete(this.onShown, this);\r\n    }\r\n    doHideAnimation() {\r\n        fgui.GTween.to2(1, 1, 0.1, 0.1, 0.3)\r\n            .setTarget(this, this.setScale)\r\n            .setEase(fgui.EaseType.QuadOut)\r\n            .onComplete(this.hideImmediately, this);\r\n    }\r\n    onHide() {\r\n        this.hide();\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/coding/layabox/Super-Quick-Recognizer/src/events/events.ts"
+  ]
+}

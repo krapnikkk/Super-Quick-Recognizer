@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,32" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_tsvk" name="n0" src="tsvkg" fileName="res/b7_png.png" xy="0,0" size="80,32">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_tsvk" name="n1" src="tsvki" fileName="res/b5_png.png" xy="0,0" size="80,32">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_tsvk" name="n2" src="tsvkh" fileName="res/b6_png.png" xy="0,0" size="80,32">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_tsvk" name="n3" src="tsvki" fileName="res/b5_png.png" xy="0,0" size="80,32">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_tsvk" name="Title" xy="25,6" size="29,19" fontSize="12" align="center" vAlign="middle" text="导入">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="17,200" extention="ScrollBar">
+  <ScrollBar/>
+  <displayList>
+    <graph id="n0_ntyb" name="n0" xy="0,0" size="17,200" type="rect" lineSize="0" fillColor="#F0F0F0" touchable="false">
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n1_ntyb" name="bar" xy="0,20" size="17,160">
+      <relation target="" sidePair="height"/>
+    </graph>
+    <component id="n2_ntyb" name="arrow1" xy="0,0" src="ntybw"/>
+    <component id="n3_ntyb" name="arrow2" xy="0,180" src="ntybx">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n4_ntyb" name="grip" xy="0,20" src="ntyby"/>
+  </displayList>
+</component>

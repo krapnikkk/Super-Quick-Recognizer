@@ -1,0 +1,4 @@
+{
+  "code": "export default class Events {\r\n}\r\nEvents.DELETE_ITEM = \"delete_item\";\r\nEvents.DATA_INIT = \"data_init\";\r\nEvents.INSERT_FILE_DATA = \"insert_file_data\";\r\nEvents.PREVIEW_DATA = \"preview_data\";\r\n",
+  "references": []
+}

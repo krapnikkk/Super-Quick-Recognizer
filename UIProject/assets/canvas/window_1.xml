@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,470" bgColor="#ededed">
+  <displayList>
+    <component id="n18_ild2" name="frame" src="ild21c" fileName="WindowFrame.xml" xy="0,0" size="640,470"/>
+    <graph id="n10_hf6y" name="n10" xy="30,115" size="580,280" type="rect" lineSize="0"/>
+    <component id="n12_hf6y" name="n12" src="hf6y12" fileName="checkbox.xml" xy="43,128"/>
+    <text id="n1_a4at" name="n1" xy="70,126" size="33,20" fontSize="14" vAlign="middle" text="名称"/>
+    <text id="n2_a4at" name="n2" xy="283,126" size="61,20" fontSize="14" text="记录时间"/>
+    <text id="n16_ild2" name="n16" xy="536,126" size="33,20" fontSize="14" text="操作"/>
+    <list id="n3_a4at" name="n3" xy="30,155" size="580,240" overflow="scroll" defaultItem="ui://wfnu79jta4at11" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_a4at" name="n4" src="hipto" fileName="btn/btn_save.xml" xy="363,66"/>
+    <graph id="n5_a4at" name="n5" xy="153,66" size="190,32" type="rect" lineSize="0"/>
+    <text id="n6_a4at" name="n6" xy="161,78" size="170,20" input="true" prompt="请为字符组起个名字吧~" maxLength="6" fontSize="14" autoSize="none" text="">
+      <relation target="n5_a4at" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_a4at" name="n7" xy="42,82" size="33,20" visible="false" fontSize="14" color="#3377ff" vAlign="middle" text="全选"/>
+    <text id="n8_a4at" name="n8" xy="94,82" size="33,20" visible="false" fontSize="14" color="#ff3333" vAlign="middle" text="删除"/>
+    <component id="n13_hf6y" name="btn_close" src="hf6y13" fileName="btn/btn_close.xml" xy="230,414"/>
+    <component id="n19_qwg0" name="n19" src="qwg01d" fileName="btn/btn_clear.xml" xy="329,414"/>
+    <text id="n20_x17r" name="n20" xy="267,15" size="105,28" font="SimHei" fontSize="24" bold="true" text="字符记录">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>
